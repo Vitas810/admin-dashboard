@@ -1,2 +1,2 @@
-npm run lint:css --fix,
+npm run lint:css --fix
 npx eslint --ext .js,.vue,.ts src --fix
