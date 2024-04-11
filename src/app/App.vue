@@ -8,5 +8,5 @@
 import auth from '../pages/auth/ui/Auth.vue';
 </script>
 
-<style scoped>
+<style lang="scss">
 </style>

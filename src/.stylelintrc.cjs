@@ -12,11 +12,12 @@ module.exports = {
         "stylelint-selector-bem-pattern"
     ], 
     rules: {
+        'comment-no-empty': null,
         "at-rule-no-unknown": null,
         "scss/at-rule-no-unknown": [
             true,
             {
-                'ignoreAtRules': ['tailwind']
+                'ignoreAtRules': ['tailwind', 'mixin', 'include', 'import']
             }
         ],
         "plugin/selector-bem-pattern": {

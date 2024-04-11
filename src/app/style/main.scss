@@ -1,0 +1,8 @@
+/* Конфигурационные стили */
+@import url('./config/config');
+
+/* Расширения (mixins) */
+@import url('./mixins/mixins');
+
+/* Базовые стили для макета */
+@import url('./base/base');

@@ -1,4 +1,5 @@
 vite.config.ts
-tailwind.config.js
-postcss.config.js
+tailwind.config.ts
+postcss.config.cjs
 vite-env.d.ts
+.eslintrc.cjs
