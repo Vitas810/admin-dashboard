@@ -5,12 +5,6 @@ module.exports = {
         "stylelint-config-standard",
         "stylelint-config-tailwindcss"
     ],
-    "fix": true,
-    "cache": true,
-    plugins: [
-        "stylelint-scss",
-        "stylelint-selector-bem-pattern"
-    ], 
     rules: {
         'comment-no-empty': null,
         "at-rule-no-unknown": null,
@@ -28,5 +22,11 @@ module.exports = {
             },
             "utilitySelectors": "^\\.util-[a-z]+$"
         },
-    }
+    },
+    "fix": true,
+    "cache": true,
+    plugins: [
+        "stylelint-scss",
+        "stylelint-selector-bem-pattern"
+    ], 
   };
