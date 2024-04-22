@@ -39,7 +39,7 @@ export default {
 
                 <div class="auth-form__social">
                     <button class="auth-form__social-btn">
-                        <img src="../assets/img/social/Gmail.svg" alt="gmail">
+                        <img src="../../../shared/assets/img/social/Gmail.svg" alt="gmail">
                     </button>
                 </div>
             </div>
