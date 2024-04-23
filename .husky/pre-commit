@@ -1,2 +1,2 @@
 npm run lint:css
-npx run lint-fix:ts
+npm run lint-fix:ts
