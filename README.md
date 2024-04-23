@@ -4,31 +4,24 @@
 * Управление настройками системы.
 
 ### При написание проекта были использованы технологии:
-* Vue3
+* Vue 3
 * TypeScript
 * Vite
 * Pinia
 * Vuelidate
 * Vue-debounce
 * Tailwind
+* ESLint, Stylelint
+* husky
+* Docker, Docker-compose
 
 
 ## Project setup
 ```
-npm install
+docker build -t admin-dashboard .
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+docker-compose up --build
 ```
